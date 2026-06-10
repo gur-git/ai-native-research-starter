@@ -1,0 +1,6 @@
+# OS noise
+.DS_Store
+Thumbs.db
+
+# local agent settings (keep shared settings in .claude/settings.json if added)
+.claude/settings.local.json
