@@ -70,7 +70,7 @@ Carried inline, not in side files: every knowledge artifact opens with a status 
 ## Source pin
 
 ```
-source_repo:     https://github.com/gur-git/AI-Native-research
+source_repo:     https://github.com/gur-git/AI-native-research
 pinned_commit:   5e05cfcc04cd716e9dbf607b97200ec0eee9a924   # 2026-06-10 — refresh if the inquiry repo is rebased before its first push
 updates_path:    updates/        # in the source repo; the `update` skill reads it
 starter_version: 0.1.0
