@@ -15,9 +15,9 @@ Read the **Source pin** block in `CLAUDE.md`: `source_repo`, `pinned_commit`, `u
 
 ## 2 · Fetch and select
 
-Fetch the `updates_path` directory from `source_repo`. Update documents are versioned and written for you, the agent: each states what changed, why (with evidence links), and what to ask your researcher.
+Fetch the `updates_path` directory from `source_repo`. Update documents are numbered, immutable once published, and written for you, the agent: each states what changed, why (with evidence links), and what to ask your researcher. A document may have an attachments folder beside it (`NNNN-files/`) carrying the exact content of any whole files it installs.
 
-Select the documents that apply: those whose `applies_from` commit is at or after the current `pinned_commit`. If none apply, say so, confirm the pin is current against the fetched commit, and stop. If a fetch fails, stop and report — never reconstruct an update document from memory.
+Select the documents that apply: those cut *after* your current pin — i.e., your `pinned_commit` falls in the document's `applies_from` range (at or before the commit named there). Walk them in ascending number. If none apply, say so, confirm the pin is current against the fetched commit, and stop. If a fetch fails, stop and report — never reconstruct an update document or an attachment from memory.
 
 ## 3 · Walk each document, item by item
 
@@ -29,7 +29,7 @@ Enter conversation mode for the walk (adoptions are researcher-reserved decision
 
 Then the researcher decides, per item:
 
-- **Adopt** → you apply the concrete edit. **Machinery only**: skills, `CLAUDE.md` sections, workspace conventions. Never touch the researcher's research content (`state.md` substance, `context/knowledge/`, records, FRICTION entries) on an update's authority.
+- **Adopt** → you apply the concrete edit. **Machinery only**: skills, `CLAUDE.md` sections, workspace conventions. Where the item installs a whole file, fetch its exact content from the document's attachments folder (`NNNN-files/<name>`) — never reconstruct it from the document's prose. Never touch the researcher's research content (`state.md` substance, `context/knowledge/`, records, FRICTION entries) on an update's authority.
 - **Skip** → one line in `context/records/` — item, date, "skipped by researcher" — so future updates know not to re-ask.
 - **Adapt** → apply the researcher's variant and record the delta in `context/records/` in the same entry style. Never partially apply an item without recording exactly how the applied form differs from the upstream form.
 
@@ -45,9 +45,18 @@ Write one entry in `context/records/` summarizing the update session (documents 
 
 Before ending, check `FRICTION/` for entries that predate this update and bear on what just changed (friction the upstream change addresses, or contradicts). Note to the researcher that these existed before the update — the maintainers read `FRICTION/` by arrangement, so the timing context matters; there is no send mechanism and nothing to transmit.
 
+## Updating the template itself (maintainer use)
+
+The starter **template** is this process's first consumer: the methodology's maintainer applies each new update document to the template before any user ever sees it — that application is the document's test run. When the copy you are updating *is* the template (the maintainer says so; the giveaway is an unfilled skeleton `profile.md` in the template repo):
+
+- There is no researcher interview — the maintainer authored the change. Walk the items as a checklist, applying each; the maintainer may still adapt an item on contact (that usually means the *document* needs fixing before publication, while it still can be — documents are immutable only once published).
+- **Do not write `context/records/` entries** — in the template those are content that would ship to every future user. Record the update session in the commit message instead.
+- Closing steps, in addition to the pin move: bump `starter_version` in `CLAUDE.md` (patch for wording, minor for behavior, major for workspace-shape breaks).
+
 ## Hard lines
 
-- Never apply an upstream change without the researcher's per-item decision.
+- Never apply an upstream change without the researcher's per-item decision (template mode excepted — the maintainer authored the change).
 - Never re-pin silently or partially.
-- Never edit research content under this skill — machinery only.
+- Never edit research content under this skill — machinery only; in template mode, never write `context/records/` entries.
+- Never edit an upstream update document or attachment from a consuming repo; corrections upstream are a new update.
 - Never mark anything understood, closed, or done here; that is the gate skill's alone.

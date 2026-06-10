@@ -41,4 +41,8 @@ Also invocable by name; your agent will introduce each one the first time it's r
 
 Everything else (`CLAUDE.md`, `.claude/`) is machinery for your agent — yours to read, never required.
 
+## Want the why?
+
+Everything this workspace asks of you comes from a methodology developed in the open: [AI-native research](https://github.com/gur-git/AI-native-research). If you want the reasoning behind any of it: `GOAL.md` there is the argument (research has two outputs — the work and the researcher — and AI quietly endangers the second), `METHODOLOGY.md` is the full methodology (the posture, the gates, the modes, and every practice with its status and the evidence behind it), `foundation/` is the deeper backbone (the seventeen properties of AI it is all built around, and the questions still open), and `evidence/` + `log/` show what it is grounded in and how it has changed. Nothing there is required reading — and your agent can fetch and explain any piece of it in plain terms; just ask.
+
 *Questions about any of this — why gates, why the agent won't mark things done by itself, where a rule comes from — just ask your agent. Explaining the methodology is part of its job.*
