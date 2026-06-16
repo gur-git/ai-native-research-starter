@@ -4,7 +4,7 @@ This is a workspace for doing research with an AI agent — set up so the AI doe
 
 ## Start
 
-1. Open this repo with your AI agent (for example, Claude Code).
+1. Open this repo with an AI agent that reads `CLAUDE.md` and the `.claude/skills/` folder — Claude Code, or another agent of that class. (A plain chat assistant that doesn't load those files won't run any of the methodology below; if your agent doesn't greet you with an onboarding interview after the next step, that's why.)
 2. Say **"start"**.
 
 That's the whole setup. Your agent will interview you — who you are, what you're researching, how you like to work — and configure the workspace from the conversation. You will not be asked to fill in or write any document, here or ever.
@@ -32,12 +32,14 @@ Also invocable by name; your agent will introduce each one the first time it's r
 - **ideate** — generate candidate directions or questions, then converge — you rank first.
 - **session** — end-of-session tidy-up: progress saved, loose ends listed.
 - **update** — check whether the methodology has changed upstream and talk through what's worth adopting.
+- **researcher-card** — bundle who you are and how you work into a portable card to carry into your next project (your profile, not your research).
 
 ## What's in the folder
 
-- **`state.md`** — where the research stands right now. Your agent keeps it current; read it whenever you want to re-orient.
+- **`state.md`** — where the research stands right now. Once you've started, your agent keeps it current; read it whenever you want to re-orient.
 - **`context/`** — everything accumulated: your profile and preferences, the knowledge built (notes are marked with the gates they passed), and the records of decisions and gate conversations.
 - **`FRICTION/`** — notes on what about this way of working helped or chafed. Your agent maintains it; add your own notes whenever something is worth saying. This is how the methodology learns from you.
+- **`researcher-card.md`** — appears only if you ask your agent to make one when starting a new project; it carries your profile (who you are, how you work) to a fresh workspace, never your research content.
 
 Everything else (`CLAUDE.md`, `.claude/`) is machinery for your agent — yours to read, never required.
 

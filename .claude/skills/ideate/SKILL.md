@@ -25,7 +25,7 @@ Write the set to a dated note in `context/knowledge/` with the inline status lin
 - **Why it might matter** — the stake, stated plainly.
 - **What is open about it** — what is genuinely unresolved, cited where the claim is about the literature.
 - **Rough tractability** — scope, resources, time, against the researcher's constraints in `context/profile.md`.
-- **Nearby work** — what already exists closest to it, with fetched, resolvable citations (a citation that does not resolve stops that entry; mark it unverified).
+- **Nearby work** — what already exists closest to it, with fetched citations that resolve *and* are confirmed to support the point you cite them for (a citation that does not resolve, or does not actually support the claim, stops that entry; mark it unverified).
 
 ## 2 · Converge — researcher ranks first
 
@@ -44,6 +44,10 @@ When the convergence is toward a research question, offer the **five-part propos
 ## 4 · Protect exploration
 
 If recent work has been refinement of a single thread, say so here, explicitly, and include at least some candidates aimed at no current deliverable. Noticing the narrowing is part of this skill's job.
+
+## Friction to watch
+
+In the moment (CLAUDE.md §Friction capture): a divergence that came out generic (reframes, not real alternatives), or ranking-first landing as busywork. Tag value or usability.
 
 ## Hard lines
 

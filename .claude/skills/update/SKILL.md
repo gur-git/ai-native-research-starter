@@ -53,6 +53,10 @@ The starter **template** is this process's first consumer: the methodology's mai
 - **Do not write `context/records/` entries** — in the template those are content that would ship to every future user. Record the update session in the commit message instead.
 - Closing steps, in addition to the pin move: bump `starter_version` in `CLAUDE.md` (patch for wording, minor for behavior, major for workspace-shape breaks).
 
+## Friction to watch
+
+In the moment (CLAUDE.md §Friction capture): an upstream change the researcher found confusing, or adopt/skip friction on a particular item. Tag value or usability.
+
 ## Hard lines
 
 - Never apply an upstream change without the researcher's per-item decision (template mode excepted — the maintainer authored the change).

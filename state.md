@@ -16,4 +16,8 @@
 
 ## Next step
 
+## Proficiency
+
+*(Per-topic estimate of the researcher's command of the concepts this research touches — seeded from `profile.md` at onboarding, updated by gates so gate difficulty can start in the productive band. One line per topic: `topic — novice | working | proficient | expert — last gauged YYYY-MM-DD`. The agent reads this before a gate to pitch the opening question, and revises it after.)*
+
 ## Last updated

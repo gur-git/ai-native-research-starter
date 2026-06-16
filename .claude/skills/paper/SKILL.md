@@ -58,6 +58,10 @@ Enter conversation mode and say so. Walk the researcher through the claim, the w
 - If the paper will be load-bearing — about to inform a design, a direction, or a claim — hand off to the **gate** skill. Only a gate can stamp the note; until then it stays `agent-drafted` and is visibly just AI output.
 - This skill never marks anything understood, closed, or done.
 
+## Friction to watch
+
+In the moment (CLAUDE.md §Friction capture): a citation that will not resolve (also a hard line — flag it), or the deep-read landing heavier than the researcher needed. Tag integrity or value.
+
 ## Guarantees
 - No deep-read without a fetch; unresolved reference = STOP + hallucination flag.
 - The adversarial section is mandatory and concrete.

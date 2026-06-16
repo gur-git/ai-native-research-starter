@@ -27,7 +27,7 @@ One line per claim:
 
 - Confidence reflects source quality and corroboration, not fluency.
 - **No hallucinated URLs.** Only cite URLs a search or fetch actually returned. If a search finds nothing, write that down: what was searched, what came back empty. An empty result is a finding.
-- Flag every claim that would need fetch-verification (the source fetched and read, per the workspace hard line) before the work can stand on it. Until then it is search-result-grade, not load-bearing.
+- Flag every claim that would need fetch-verification before the work can stand on it — the source fetched, read, and confirmed to actually *support the specific claim*, not merely that the URL resolves. Until then it is search-result-grade, not load-bearing.
 
 ### 4. Synthesize — a landscape, not a verdict
 
@@ -49,6 +49,10 @@ A short closing section that lays out the terrain: what exists, where the tensio
 - A note becomes understood/relied-on only through the **gate** skill — this skill never stamps, closes, or marks anything done.
 - A single paper that deserves depth → the **paper** skill (fetch-before-write), not a gather line.
 - If findings reshape the current question or open threads, propose a `state.md` update; the substance of any direction change is the researcher's call.
+
+## Friction to watch
+
+In the moment (CLAUDE.md §Friction capture): confidence tags read as noise, or search-grade findings the researcher will not trust without verification. Tag usability or integrity.
 
 ## Hard lines (inherited from CLAUDE.md)
 

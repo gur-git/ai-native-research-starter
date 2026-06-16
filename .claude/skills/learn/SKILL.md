@@ -15,7 +15,7 @@ A named concept, or a gap you identified (name it and confirm the scope in one e
 
 ### 1. Scope to the researcher
 
-Read `context/profile.md` and `state.md`. Pitch everything that follows to the profile: the researcher's level, what background to assume, what the current research thread needs this concept *for*. If the concept has an unlearned hard prerequisite, say so and offer to run `learn` on that first — the researcher chooses the order.
+Read `context/profile.md` and `state.md` (including `## Proficiency`). Pitch and *scope* everything that follows to the researcher's level and proficiency: what background to assume, what the current research thread needs this concept *for*, and how much to spend — for a topic they already command, keep the note tight and skip to where it gets non-obvious; spend depth where they are weak. If the concept has an unlearned hard prerequisite, say so and offer to run `learn` on that first — the researcher chooses the order.
 
 ### 2. Gather and verify sources
 
@@ -54,6 +54,10 @@ Announce the note exists, then teach from it — do not send the researcher to r
 ### 5. Hand off to the gate
 
 When the teaching feels complete — the researcher is explaining back rather than asking — offer the gate: "ready to close this one?" The **gate** skill owns everything from there: the interview, the stamp on the note, the record in `context/records/`.
+
+## Friction to watch
+
+In the moment (CLAUDE.md §Friction capture): a note pitched wrong for the researcher's level (too basic or too advanced), or a prerequisite gap that should have surfaced earlier. Tag usability (or efficacy, where the mis-pitch blocks real understanding).
 
 ## Hard limits
 
