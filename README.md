@@ -24,12 +24,13 @@ Ask for either by name, anytime:
 
 Also invocable by name; your agent will introduce each one the first time it's relevant:
 
-- **onboard** — the setup interview. Runs once, at the start.
+- **onboard** — the setup interview. Runs once, at the start; with your permission it looks you up online first, so it confirms a profile with you rather than asking everything cold.
 - **learn** — map and draft one concept you need to understand, then teach it to you in conversation.
 - **gate** — the interview that closes a concept, a decision, or a result. The only way anything gets marked as understood or done.
 - **paper** — a structured deep-read of one paper, every citation fetched and verified.
 - **gather** — targeted web research with cited, confidence-marked claims.
 - **ideate** — generate candidate directions or questions, then converge — you rank first.
+- **write** — compose the paper with you: structure first, then paragraph by paragraph, where explaining a paragraph in your own words is how it becomes yours.
 - **session** — end-of-session tidy-up: progress saved, loose ends listed.
 - **update** — check whether the methodology has changed upstream and talk through what's worth adopting.
 - **researcher-card** — bundle who you are and how you work into a portable card to carry into your next project (your profile, not your research).
@@ -37,7 +38,7 @@ Also invocable by name; your agent will introduce each one the first time it's r
 ## What's in the folder
 
 - **`state.md`** — where the research stands right now. Once you've started, your agent keeps it current; read it whenever you want to re-orient.
-- **`context/`** — everything accumulated: your profile and preferences, the knowledge built (notes are marked with the gates they passed), and the records of decisions and gate conversations.
+- **`context/`** — everything accumulated: your profile and preferences, the knowledge built (notes are marked with the gates they passed), the paper as you draft it, and the records of decisions and gate conversations.
 - **`FRICTION/`** — notes on what about this way of working helped or chafed. Your agent maintains it; add your own notes whenever something is worth saying. This is how the methodology learns from you.
 - **`researcher-card.md`** — appears only if you ask your agent to make one when starting a new project; it carries your profile (who you are, how you work) to a fresh workspace, never your research content.
 

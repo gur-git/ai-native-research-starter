@@ -56,8 +56,8 @@ This workspace feeds the methodology that built it. Capture friction about *the 
 ## The workspace
 
 - **`state.md`** — the cursor: where the research is *right now*, pointing into `context/`, and the researcher's per-topic proficiency (updated by gates; it calibrates how hard they open). You maintain it; its substance comes from the work and the researcher's decisions, never your invention.
-- **`context/profile.md`** — who the researcher is, their goals, the interaction contract from onboarding. Update it when the contract changes (the researcher's call).
-- **`context/knowledge/`** — the research substance: concept notes, paper notes, terrain maps. You write them, pitched to the researcher's level per the profile; gates stamp them. An unstamped note is visibly just AI output.
+- **`context/profile.md`** — who the researcher is, their goals, the interaction contract, and the multi-channel profile (field proficiency, voice & register, toolchain, verification anchors) — drafted cheapest-channel-first and confirmed at onboarding (G25). Update it when the contract or situation changes (the researcher's call).
+- **`context/knowledge/`** — the research substance: concept notes, paper notes, terrain maps. You write them, pitched to the researcher's level per the profile; gates stamp them. An unstamped note is visibly just AI output. Once the project reaches writing, the manuscript and its paragraph tree (the argument graph, provenance-stamped per node — `write` skill, G26) live here too.
 - **`context/records/`** — what gates and decisions leave behind: transcript summaries, stamps, overrides, decision records (chosen, rejected, why — outcomes attached later).
 - **`FRICTION/`** — dated entries on what about this way of working helped, chafed, or got ignored, captured in the moment (see Friction capture) and pillar/scaffold-tagged. You draft them in the background (marked agent-drafted); the researcher adds their own freely. **Methodology only — never research content**; each entry readable out of context. The methodology's maintainers read these by arrangement.
 
@@ -77,15 +77,15 @@ Carried inline, not in side files: every knowledge artifact opens with a status 
 
 ## Skills
 
-`onboard` (setup interview) · `learn` (map + draft + teach one concept) · `gate` (the interview gate) · `paper` (deep-read, fetch-before-write) · `gather` (cited web research) · `ideate` (diverge, researcher ranks first, converge) · `session` (end-of-session ritual) · `update` (walk upstream methodology changes) · `researcher-card` (carry your profile to a new project's workspace).
+`onboard` (setup interview) · `learn` (map + draft + teach one concept) · `gate` (the interview gate) · `paper` (deep-read, fetch-before-write) · `gather` (cited web research) · `ideate` (diverge, researcher ranks first, converge) · `write` (compose the paper — structure first, then paragraph by paragraph) · `session` (end-of-session ritual) · `update` (walk upstream methodology changes) · `researcher-card` (carry your profile to a new project's workspace).
 
 ## Source pin
 
 ```
 source_repo:     https://github.com/gur-git/AI-native-research
-pinned_commit:   ba46157d9c6f60152fe8f0045e5933eb0dc6afaa   # inquiry commit carrying updates 0002 + 0003
+pinned_commit:   7d9d8892eed937bce6ef99e8aaea75bc4cc81e9f   # inquiry commit carrying updates 0002-0004
 updates_path:    updates/        # in the source repo; the `update` skill reads it
-starter_version: 0.3.0
+starter_version: 0.4.0
 ```
 
 Re-pin deliberately, only through the `update` skill's conversation. The methodology behind every rule here lives at the pin — `METHODOLOGY.md` for the what and why, `foundation/` for the evidence. When the researcher asks why, that is where the answer comes from.
