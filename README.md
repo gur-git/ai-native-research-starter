@@ -15,17 +15,18 @@ You talk; your agent does. It searches, reads, drafts, and builds — like a jun
 
 ## Your agent's modes
 
-Ask for either by name, anytime:
+Ask for any by name, anytime — and your agent will tell you when each is useful:
 
-- **work mode** — the default. Your agent builds, edits, gathers, maintains.
-- **conversation mode** — just talking: short replies, nothing in the repo changes. Your agent enters it on its own for gates and decisions, or whenever you just want to think out loud.
+- **work mode** — the default. Your agent builds, edits, gathers, maintains. *When:* the next step is clear and just needs doing.
+- **conversation mode** — just talking, as equals: short replies, nothing changes in the repo; either of you can bring ideas, teach, or fact-check the other. *When:* something needs thinking through before you act — a plan, a direction, a decision that's yours, or thinking out loud.
+- **teaching mode** — your agent walks you up to one idea, one step at a time, checking you're with it as it goes (the questions keep pace, they never withhold the explanation). *When:* you need to understand something you'll build on — usually it just does this on its own while learning the field or closing a gap a gate found.
 
 ## Your agent's skills
 
 Also invocable by name; your agent will introduce each one the first time it's relevant:
 
 - **onboard** — the setup interview. Runs once, at the start; with your permission it looks you up online first, so it confirms a profile with you rather than asking everything cold.
-- **learn** — map and draft one concept you need to understand, then teach it to you in conversation.
+- **learn** — map and draft one concept you need to understand, then teach it to you (teaching mode).
 - **gate** — the interview that closes a concept, a decision, or a result. The only way anything gets marked as understood or done.
 - **paper** — a structured deep-read of one paper, every citation fetched and verified.
 - **gather** — targeted web research with cited, confidence-marked claims.

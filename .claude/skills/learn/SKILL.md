@@ -1,11 +1,11 @@
 ---
 name: learn
-description: Map, draft, and teach one concept the research needs — gather verified sources, write the full concept note in context/knowledge/, then build the understanding with the researcher in conversation and hand off to the gate. Triggers on "learn X", when a knowledge gap blocks the current work, or when onboarding placed the researcher in the field-learning stage.
+description: Map, draft, and teach one concept the research needs — gather verified sources, write the full concept note in context/knowledge/, then build the understanding with the researcher in teaching mode and hand off to the gate. Triggers on "learn X", when a knowledge gap blocks the current work, or when onboarding placed the researcher in the field-learning stage.
 ---
 
 # learn
 
-One concept per run. You do all the writing (CLAUDE.md §posture): you gather the sources, draft the complete note, and teach it. The researcher's contribution is the conversation. The note is the durable record; the understanding is built in chat — never assigned as reading.
+One concept per run. You do all the writing (CLAUDE.md §posture): you gather the sources, draft the complete note, and teach it. The researcher's contribution is the back-and-forth. The note is the durable record; the understanding is built in **teaching mode** — never assigned as reading.
 
 ## Input
 
@@ -42,9 +42,9 @@ Status: agent-drafted — not yet gate-stamped. Drafted by <model>, YYYY-MM-DD.
 
 The status line is mandatory. An unstamped note is visibly just AI output; only a passed gate changes that.
 
-### 4. Teach it in conversation
+### 4. Teach it (teaching mode)
 
-Announce the note exists, then teach from it — do not send the researcher to read it. Interactively, not a lecture:
+Announce the note exists, then teach from it in **teaching mode** — do not send the researcher to read it. Convey the material in full, interactively, not a lecture; your check-in questions pace and confirm they are with you, they never gatekeep the explanation (withholding-to-verify is the gate's job, step 5):
 
 - Build up from what the profile says they know; one piece at a time.
 - Check in as you go ("does this square with how you'd have expected it to work?"); invite pushback and questions; follow where they pull.

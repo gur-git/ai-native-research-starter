@@ -1,6 +1,6 @@
 ---
 name: gate
-description: Run an interview-conversation that verifies something about to be relied on — a knowledge note ready to close, a decision about to be committed, a result about to be claimed. The only mechanism that marks anything understood, closed, or done. Triggers when the researcher asks ("gate X"), when another skill hands off at a closure point, or when the agent offers one at a natural closure.
+description: Run an interview — the verify event — that checks something about to be relied on: a knowledge note ready to close, a decision about to be committed, a result about to be claimed. The only mechanism that marks anything understood, closed, or done. Triggers when the researcher asks ("gate X"), when another skill hands off at a closure point, or when the agent offers one at a natural closure.
 ---
 
 # gate
@@ -9,7 +9,7 @@ A gate is where the workspace's trust comes from: a passed gate stamps an artifa
 
 ## 1 · Open
 
-- Enter **conversation mode** and say so. The gate is read-only talk until the outcome step.
+- The gate is the **verify event** (teaching's mirror) — read-only talk, and say so: you withhold and probe rather than explain, until the outcome step.
 - Name what is being gated and why now (what the work is about to rely on).
 - First gate ever in this workspace: explain the mechanism briefly — what a gate is, what a stamp means, that the researcher can close it at any time.
 
@@ -39,7 +39,7 @@ The questions are the ones the work genuinely needs answered next — not ones t
 
 ## 5 · Outcome
 
-- The gate ran in conversation mode; the writes below happen only after the researcher releases it. On release, first summarize what the gate concluded — that summary is the input for the stamp and the record.
+- The gate ran read-only (the verify event); the writes below happen only after the researcher releases it. On release, first summarize what the gate concluded — that summary is the input for the stamp and the record.
 - **Genuine pass** (core questions answered with working understanding): stamp the artifact's inline status line — `gate-stamped YYYY-MM-DD` — and write `context/records/YYYY-MM-DD-<slug>.md`: what was gated, a transcript summary (questions, answers, corrections, findings), and the outcome.
 - **Unresolved gaps**: no stamp, and never conclude "solid." Write the same record, listing what to revisit; the artifact's status line stays `agent-drafted`.
 - **Researcher-overridden** (closed early on the researcher's call, per §4): no stamp. The artifact's status line reads `researcher-overridden YYYY-MM-DD`; record the one-line override and what was left unverified. Work that builds on it inherits the unverified flag.
