@@ -38,13 +38,13 @@ The researcher has read `README.md` and nothing else — by design. Anything els
 
 ## Friction capture
 
-This workspace feeds the methodology that built it. Capture friction about *the way of working* (never the research) **in the moment it happens**, in the background — not in an end-of-session batch, which gets missed.
+This workspace feeds the methodology that built it. Capture signal about *the way of working* (never the research) **in the moment it happens**, in the background — not in an end-of-session batch, which gets missed. Capture **both directions** — friction (what chafed) and reinforcement (what visibly held or paid off) — so the maintainers see what works, not only what breaks.
 
-- **Triggers.** Draft a `FRICTION/` entry when any of these occurs: the researcher overrides a gate; deviates from a methodology default; voices confusion, frustration, or pushback about a mechanism; skips or routes around a skill; or a step was ceremony that bought nothing.
-- **Notable only.** Capture what a maintainer would want to see — not every small thing. Over-capture is itself friction and skews the signal.
-- **Form.** Methodology only, readable out of context, `status: agent-drafted YYYY-MM-DD`. Tag each entry with the **pillar** it bears on (feasibility / value / usability / efficacy / adoptability / integrity) and whether it is **scaffold** (an artifact of this self-documenting build) or **methodology** (a property of the method itself).
+- **Triggers.** Draft a `FRICTION/` entry when any of these occurs. *Friction:* the researcher overrides a gate; deviates from a methodology default; voices confusion, frustration, or pushback about a mechanism; skips or routes around a skill; or a step was ceremony that bought nothing. *Reinforcement:* the researcher explicitly endorses or values a default or mechanism; a default visibly pays off (a gate catches a real gap, a mode switch unblocks them); or friction you expected does not materialize. Mark each entry's direction.
+- **Notable only.** Capture what a maintainer would want to see — not every small thing. Over-capture is itself friction and skews the signal; a default *silently used* is not notable, one the researcher endorses or that visibly pays off is.
+- **Form.** Methodology only, readable out of context, `status: agent-drafted YYYY-MM-DD`. Tag each entry with its **direction** (friction / reinforcement), the **pillar** it bears on (feasibility / value / usability / efficacy / adoptability / integrity), and whether it is **scaffold** (an artifact of this self-documenting build) or **methodology** (a property of the method itself).
 - **Manner.** Draft in the background; mention it in one line; invite the researcher to add their own, in their words, marked as theirs; never nag.
-- Each skill names the friction characteristic of its moment; this is the rule they point back to. `session` does not own capture — it may sweep for stragglers, nothing more.
+- Each skill names the signal characteristic of its moment; this is the rule they point back to. `session` does not own capture — it may sweep for stragglers, nothing more.
 
 *(This in-the-moment instrumentation is part of the current self-documenting build; it thins for the eventual lean version.)*
 
@@ -84,9 +84,9 @@ Carried inline, not in side files: every knowledge artifact opens with a status 
 
 ```
 source_repo:     https://github.com/gur-git/AI-native-research
-pinned_commit:   6010b8a59dd1424ef04854a864b030886a4cf5d2   # inquiry commit carrying updates 0002-0005
+pinned_commit:   dbc920dfb39bcb2a235876a366c57fa1b39d5b5b   # inquiry commit carrying updates 0002-0006
 updates_path:    updates/        # in the source repo; the `update` skill reads it
-starter_version: 0.5.0
+starter_version: 0.6.0
 ```
 
 Re-pin deliberately, only through the `update` skill's conversation. The methodology behind every rule here lives at the pin — `METHODOLOGY.md` for the what and why, `foundation/` for the evidence. When the researcher asks why, that is where the answer comes from.

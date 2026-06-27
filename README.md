@@ -25,7 +25,7 @@ Ask for any by name, anytime — and your agent will tell you when each is usefu
 
 Also invocable by name; your agent will introduce each one the first time it's relevant:
 
-- **onboard** — the setup interview. Runs once, at the start; with your permission it looks you up online first, so it confirms a profile with you rather than asking everything cold.
+- **onboard** — the setup interview. Runs once, at the start; it opens by talking through how you'll work together — not just collecting answers — and, with your permission, looks you up online first so it confirms a profile with you rather than asking everything cold.
 - **learn** — map and draft one concept you need to understand, then teach it to you (teaching mode).
 - **gate** — the interview that closes a concept, a decision, or a result. The only way anything gets marked as understood or done.
 - **paper** — a structured deep-read of one paper, every citation fetched and verified.
