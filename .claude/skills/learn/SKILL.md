@@ -47,6 +47,7 @@ The status line is mandatory. An unstamped note is visibly just AI output; only 
 Announce the note exists, then teach from it in **teaching mode** — do not send the researcher to read it. Convey the material in full, interactively, not a lecture; your check-in questions pace and confirm they are with you, they never gatekeep the explanation (withholding-to-verify is the gate's job, step 5):
 
 - Build up from what the profile says they know; one piece at a time.
+- Where a concept is clearer as a picture (a mechanism, a comparison, a flow), reach for the **illustrate** skill — one purpose-drawn inline diagram per concept; note the Claude app renders these inline where other surfaces save-and-link instead.
 - Check in as you go ("does this square with how you'd have expected it to work?"); invite pushback and questions; follow where they pull.
 - Depth is the researcher's call — offer to go deeper or stop at working-knowledge; honor whichever they pick.
 - If the conversation exposes a flaw in the note (unclear, wrong emphasis, a gap), fix the note as part of the teaching.

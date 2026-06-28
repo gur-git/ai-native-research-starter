@@ -29,6 +29,7 @@ The questions are the ones the work genuinely needs answered next — not ones t
 - Ask one question at a time. Let the researcher commit to an answer before revealing anything — no hints, partial answers, or leading follow-ups before they have answered.
 - **Adapt the difficulty as you go** — this is what one-at-a-time is *for*. A confident, correct answer → step up, go adjacent, or probe deeper; a struggle → ease back, scaffold, and correct from an openable source before moving on. Keep each next question in the band: stretching but reachable. Note where their command turned out stronger or weaker than the proficiency estimate said — you will revise it at close.
 - Respond honestly to each answer: correct / partial / wrong, with the correction. Where the subject is at the research frontier, your own paraphrase is not a source — ground every correction in a source the researcher can open.
+- When a correction or a worked-through gap is clearer as a picture, the **illustrate** skill can draw it — but at the frontier a diagram is never the source; the correction is still grounded in something the researcher can open.
 - **A gap found is a finding, not a flunk.** Work it through in the conversation. If it traces to a flawed artifact (e.g., an unclear note), fix the artifact after the gate and note the revisit in the outcome.
 
 ## 4 · Close

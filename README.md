@@ -27,6 +27,7 @@ Also invocable by name; your agent will introduce each one the first time it's r
 
 - **onboard** — the setup interview. Runs once, at the start; it opens by talking through how you'll work together — not just collecting answers — and, with your permission, looks you up online first so it confirms a profile with you rather than asking everything cold.
 - **learn** — map and draft one concept you need to understand, then teach it to you (teaching mode).
+- **illustrate** — draw a concept as a quick, purpose-built diagram so it lands faster (your agent reaches for this on its own while teaching). Inline diagrams render in the Claude app; on other surfaces it saves the picture beside the explanation and links it.
 - **gate** — the interview that closes a concept, a decision, or a result. The only way anything gets marked as understood or done.
 - **paper** — a structured deep-read of one paper, every citation fetched and verified.
 - **gather** — targeted web research with cited, confidence-marked claims.

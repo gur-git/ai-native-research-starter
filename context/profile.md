@@ -32,7 +32,7 @@
 
 ## Interaction contract
 
-*(how the researcher wants to work: defaults proposed at onboarding, their adjustments recorded here — modes, gate cadence and feel, delegation preferences, anything overridden from the methodology's defaults and why)*
+*(how the researcher wants to work: defaults proposed at onboarding, their adjustments recorded here — modes, gate cadence and feel, response length (default: very short — terse replies, expanded only when the researcher asks for more), delegation preferences, anything overridden from the methodology's defaults and why)*
 
 ## Skills in play
 

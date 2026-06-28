@@ -31,7 +31,7 @@ One line per claim:
 
 ### 4. Synthesize — a landscape, not a verdict
 
-A short closing section that lays out the terrain: what exists, where the tension or disagreement is, what the live options are and what each costs. You may give your advice, marked as such and on record — but never answer "so what should I do"; selection and direction stay the researcher's. End by handing the terrain back.
+A short closing section that lays out the terrain: what exists, where the tension or disagreement is, what the live options are and what each costs. You may give your advice, marked as such and on record — but never answer "so what should I do"; selection and direction stay the researcher's. End by handing the terrain back. Where the terrain is clearer drawn — a comparison table, an options-vs-costs map — the **illustrate** skill can render it inline; the picture still lays out the landscape, it never makes the selection.
 
 ## Output
 
