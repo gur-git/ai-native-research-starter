@@ -1,11 +1,13 @@
 ---
 name: update
-description: Walk upstream methodology changes with the researcher — fetch update documents from the source repo, converse item by item (adopt / skip / adapt, the researcher's call each time), apply adoptions to workspace machinery, and move the source pin forward deliberately. Triggers on "update" or "check for updates"; if you notice the pin is behind, mention it and offer this skill — never run it unprompted.
+description: Walk upstream methodology changes with the researcher — fetch update documents from the source repo, converse item by item (adopt / skip / adapt, the researcher's call each time), apply adoptions to workspace machinery, and move the source pin forward deliberately. Triggers on "update" or "check for updates", and on the session-start discovery check finding the pin behind; offer the walk — never run it unprompted, and never re-offer a version the researcher has declined.
 ---
 
 # update — walk upstream methodology changes
 
 The downstream channel. The methodology behind this workspace evolves; this skill is how changes arrive — through conversation, never silent application. Adoption decisions are researcher-reserved.
+
+**Discovery is proactive.** The session-start check (`CLAUDE.md` §Session ritual) compares the pin against the source `updates/` and offers this walk when the pin is behind — so the researcher need not remember to ask. The offer never nags: never start the walk unprompted, and if the researcher declines, record a one-line note in `context/records/` (`update walk declined YYYY-MM-DD at pin <hash>`) so the same updates are not re-offered every session — only a *newer* document past that point re-triggers the offer.
 
 ## 1 · Read the pin
 

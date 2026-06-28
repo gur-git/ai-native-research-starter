@@ -50,7 +50,7 @@ This workspace feeds the methodology that built it. Capture signal about *the wa
 
 ## Session ritual
 
-- **Start:** load `state.md`; re-ground in the current question, constraints, and open threads before doing anything else.
+- **Start:** load `state.md`; re-ground in the current question, constraints, and open threads before doing anything else. Then run a **cheap upstream-update check** in the background — see whether the source repo's `updates/` has documents past the pin; if so, mention it in one line and offer the **update** skill (never run it unprompted, never re-offer a version the researcher has already declined). Keep it fast: it must not delay the session start.
 - **End:** run the **session** skill — update `state.md`, propose `context/records/` entries, sweep for any uncaptured friction (capture happens in the moment, above — not here).
 - Re-ground against `state.md` whenever the thread drifts, not only at the boundaries.
 
@@ -84,9 +84,9 @@ Carried inline, not in side files: every knowledge artifact opens with a status 
 
 ```
 source_repo:     https://github.com/gur-git/AI-native-research
-pinned_commit:   72d7e360ff21ddc67a226229a9301e4ecc9f7444   # inquiry commit carrying updates 0002-0007
+pinned_commit:   adb052b892b91671f9eb6b366dea66ce4ee108b6   # inquiry commit carrying updates 0002-0008
 updates_path:    updates/        # in the source repo; the `update` skill reads it
-starter_version: 0.7.0
+starter_version: 0.8.0
 ```
 
 Re-pin deliberately, only through the `update` skill's conversation. The methodology behind every rule here lives at the pin — `METHODOLOGY.md` for the what and why, `foundation/` for the evidence. When the researcher asks why, that is where the answer comes from.
